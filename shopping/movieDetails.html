@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>电影库</title>
+    <link rel="stylesheet" href="css/common_header.css"type="text/css"/>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="css/movieDetails.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common_bottom.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common_footer.css" type="text/css"/>
+</head>
+<body>
+<!------------------------公共header----------------------------------------------->
+<div class="common_header">
+    <div class="common_top">
+        <div class="common_topLeft">
+            <ul>
+                <li class="common_topInfo">
+                    <span class="common_topHi">HI , 欢迎访问大麦网</span>
+                    [
+                    <a href="login.html" class="common_topLogin">登录</a>
+                    <a href="register.html" class="common_topReg">注册</a>
+
+                    ]
+                </li>
+                <li class="common_topMy">
+                    <a href="#" class="common_topDm">
+                        我的大麦网
+                        <b></b>
+                    </a>
+                    <div class="twoSelect">
+                        <p>我的大麦网</p>
+                        <p><a href="indent.html">我的订单</a></p>
+                        <p><a href="">个人中心</a></p>
+                        <p><a href="">帮助</a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="common_topRight">
+            <ul>
+                <li class="common_topNav" style="background: none"><a href="#" class="common_topN"><em></em>网站导航<b></b></a></li>
+                <li class="common_topService"><a href="#" class="common_topK">客服服务<b></b></a></li>
+                <li class="common_topApp"><a href="#" class="common_topS"><em></em>手机版</a></li>
+                <li class="common_topE"><a href="#">English</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------dm_header----------------------------------->
+<div class="dm_header">
+    <div class="dm_logo">
+        <img src="image/logo-r.png" alt="logo"/>
+        <img src="image/movie_logo.png" alt="logo"/>
+    </div>
+    <div class="dm-search">
+        <div class="search-main">
+            <input type="text" name="name" class="search-text" placeholder="请输入电影，演员，导演进行搜索"/>
+            <input type="button" value="搜索" class="searchBtn"/>
+        </div>
+        <div class="dm-recommend">
+            <a href="">李健</a>|
+            <a href="">陈奕迅</a>|
+            <a href="">周杰伦</a>|
+            <a href="">蔡依林</a>|
+            <a href="">梁静茹</a>|
+            <a href="">刘若英</a>
+        </div>
+    </div>
+    <div class="dm_box">
+        <ul>
+            <li><a href="#"><img src="image/05f78688-8bdb-4988-a8c0-2ed56077d471.png" alt=""/><span>超级票</span></a></li>
+            <li><a href="#"><img src="image/625da302-a5e9-43d4-84bb-07c55118eb7d.png" alt=""/><span>积分商城</span></a></li>
+            <li><a href="#"><img src="image/66e3c79a-61da-4990-b867-a09c64643867.png" alt=""/><span>票务系统</span></a></li>
+        </ul>
+    </div>
+</div>
+<div class="dm_nav">
+    <div class="nav">
+        <ul>
+            <li><a href="#">摇滚</a></li>
+            <li><a href="#">戏曲</a></li>
+            <li><a href="#">体育</a></li>
+            <li><a href="#">亲子</a></li>
+            <li><a href="#" class="nav_movie">电影</a></li>
+            <li><a href="#">舞蹈古典</a></li>
+            <li><a href="#">旅游演艺</a></li>
+            <li><a href="#">明星周边</a></li>
+            <li><a href="#">精彩专题</a></li>
+            <li><a href="#">手机购票</a></li>
+        </ul>
+    </div>
+</div>
+<div class="detailsContent">
+    <div class="movieBg">
+        <div class="detailsWarp">
+            <div class="menu">
+                <ul class="menuUl">
+                    <li><a href="index.html">大麦网&nbsp;></a></li>
+                    <li><a href="">电影频道&nbsp;></a></li>
+                    <li>影片库</li>
+                </ul> 
+            </div>
+            <div class="filmVault">
+                <div class="filmVaultTitle">
+                    <h3>影片库</h3>
+                </div>
+                <div class="filmVaultList">
+                    <div class="filmVaultTop">
+                        <ul class="filmVaultListUl">
+                            <li><a href="" class="going">正在热映</a></li>
+                            <li><a href="" class="immediately">即将上映</a></li>
+                        </ul>
+                        <span class="movie_box_tip">
+                            当前共
+                            <strong class="all">19</strong>
+                            部电影正在热映中，本周上映
+                            <strong class="week">8</strong>
+                            部新片
+                        </span>
+                    </div>
+                        <div class="filmVaultContent">
+                            <ul class="filmVaultContentUl">
+                                <li>
+                                    <a href="" class="box_movie"><img src="image/2648f29b-cf0b-455b-97b7-339b4ef6ce34.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>极限挑战</h4>
+                                        <p>1月15日 玩命笑</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/d1835038-0984-4525-9c45-fcb0ccf1dddc.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>星球大战:原力觉醒</h4>
+                                        <p>1月9日 全国上映</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/67ae345e-d30e-4e6d-8ea5-0d8290029579.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>消失爱人</h4>
+                                        <p>1月15日 如果爱 别说永远</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/82a38993-7806-4a53-80a7-b5d2d22c9c20.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>最后的巫师猎人</h4>
+                                        <p>1月15日 穿越入梦</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/77ea4fc3-976f-4234-8e85-d71de7734aca.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>通灵神探</h4>
+                                        <p>1月14日 异能惊现</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/20bf1972-9d41-4b4d-a730-e7029c23d802.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>唐人街·探案</h4>
+                                        <p>12月31日 招财弄喜 一笑到底</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/e7ad9557-5649-47ee-84af-eace6a5f35da.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>熊出没之熊心归来</h4>
+                                        <p>1月16日 去看看外面的世界</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/aedf4314-e6bb-4c61-938c-925ab6091aa3.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>老炮儿</h4>
+                                        <p>12月24日 不服来战</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/9d62c097-1c5d-4188-894f-976dc27e86e2.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>恋爱教父之三个“坏”家伙</h4>
+                                        <p>1月15日 要XX不要停</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/e645f2cf-b28e-43e9-9a9b-5b5356b0e7a3.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>鬼吹灯之寻龙诀</h4>
+                                        <p>12月18日 摸金贺岁</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/4288d516-3362-4486-8082-75c6c613633f.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>神探夏洛克</h4>
+                                        <p>1月4日 BBC顶级英剧首登大银幕</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""><img src="image/15b93c4d-50a1-4cb5-9b16-34c43b3bb6b2.jpg" alt=""/></a>
+                                    <div class="grade">
+                                        <h4>一念天堂</h4>
+                                        <p>12月31日 沈马回归 浑身戏胆</p>
+                                        <div class="num">
+                                            <strong>9.0</strong>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="movie_box_detail">
+                                        <input type="hidden" value="3" />
+                                        <h5><a href="#" title="笔仙诡影" target="_blank">笔仙诡影</a></h5>
+                                        <p>上映时间：2016-1-22</p>
+                                        <p>语言/片长：<span class="time">106分钟</span></p>
+                                        <p>电影类型：悬疑,惊悚</p>
+                                        <p>导演：高育新/刘峰</p>
+                                        <p>主演：宋懿洁/蒋欣奇/张蓝艺/王燕阳/马丹旎/李艳冰/云翔/邓琳颖</p>                                    <div class="movie_box_btn">
+                                        <a href="#" class="box_btn2" target="_blank">在线选座</a>
+                                    </div>
+                                        <dl class="movie_box_intro">
+                                        </dl>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------------movie_logo---------------------------------------------------------->
+<div class="movie_logo">
+    <div class="movie_logo_inner">
+        <div class="warp1">
+            <div class="movie_bra">
+                <h3 class="title3">
+                    品牌合作
+                </h3>
+                <ul class="movie_bra_con">
+                    <li><a href=""><img src="image/924f08c6-4028-43d9-9527-fbc23d89d420.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="image/a7248e84-dfc2-4e2d-bfff-693bb36a9db6.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="image/73887fef-3402-48ed-8339-50c89e3b059a.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="image/ec323f36-7cd3-4a82-a6c8-59dfe708df72.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+            <div class="movie_spo">
+                <h3 class="title3">
+                    赞助合作
+                </h3>
+                <ul class="movie_bra_con">
+                    <li><a href=""><img src="image/5b07d05b-1a99-4f4d-b7e1-14335b932fb1.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="image/13358932-87ee-4c2d-a822-d5a6e8be3804.jpg " alt=""/></a></li>
+                    <li><a href=""><img src="image/345fbed0-3d88-4e62-b844-60c250dcf4b9.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------common_footer------------------------------------------------------->
+<div class="common_footer">
+    <div class="common_bottom_inner">
+        <ul class="common_footer_ul common_warp">
+            <li>
+                <h4 class="common_footer_h4_1">电影活动</h4>
+                <p><a href="">电影活动</a></p>
+                <p><a href="">正在上映电影</a></p>
+                <p><a href="">影院库</a></p>
+                <p><a href="">在线选座购票</a></p>
+            </li>
+            <li>
+                <h4 class="common_footer_h4_2">帮助中心</h4>
+                <p><a href="">在线选座购票流程</a></p>
+                <p><a href="">电子票换票流程</a></p>
+                <p><a href="">常见问题</a></p>
+            </li>
+            <li>
+                <h4 class="common_footer_h4_3">关注大麦电影</h4>
+                <p><a href="">@大麦电影</a></p>
+            </li>
+            <li>
+                <h4 class="common_footer_h4_4">商务合作</h4>
+                <p><a href="">Tel:(86-10)64186577</a></p>
+                <p><a href="">E-mail:movie@damai.cn</a></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--------------------------------------common_bottom-------------------------------------------------------------->
+<div class="common_bottom">
+    <div class="common_bottom_warp">
+        <div class="common_bottom_link">
+            <a href="">公司介绍</a>|
+            <a href="">品牌识别</a>|
+            <a href="">公司荣誉</a>|
+            <a href="">联系方式</a>|
+            <a href="">隐私声明</a>|
+            <a href="">合作招商</a>|
+            <a href="">招聘信息</a>|
+            <a href="">网站地图</a>|
+            <a href="">友情链接</a>
+        </div>
+        <div class="common_bottom_copy">
+            版权所有 大麦网 Copyright2003-2014 All Rights Reserved 京ICP备11043884号 京公网安备11010102000430号 北京红马传媒文化发展有限公司
+        </div>
+    </div>
+</div>
+</body>
+</html>

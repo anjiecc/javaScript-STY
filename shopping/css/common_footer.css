@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.common_warp{
+    width: 1000px;
+    margin: auto;
+}
+.common_footer{
+    background: url(../image/movie_bg.png) repeat;
+    height: 210px;
+}
+.common_footer_ul li{
+    float: left;
+    width: 232px;
+    padding-left: 10px;
+    background: url(../image/bottom_li_bg.png) no-repeat right 2px;;
+}
+.common_footer_ul h4{
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    color: #fff;
+    font-family: Microsoft YaHei;
+    padding-left: 60px;
+    margin: 15px 0;
+}
+.common_footer_h4_1{
+    background: url(../image/bottom_logo.png) no-repeat 0 6px;
+}
+.common_footer_h4_2{
+    background: url(../image/bottom_logo.png) no-repeat 0 -52px;
+}
+.common_footer_h4_3{
+    background: url(../image/bottom_logo.png) no-repeat 0 -158px;
+}
+.common_footer_h4_4{
+    background: url(../image/bottom_logo.png) no-repeat 0 -227px;
+}
+.common_footer_ul p{
+    padding:0 0 0 60px;
+    margin: 0;
+}
+.common_footer_ul p a{
+    text-decoration: none;
+    color: #b6c7d0;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    line-height: 22px;
+}
+.common_footer_ul p a:hover{
+   color:#f59300;
+    text-decoration: underline;
+}

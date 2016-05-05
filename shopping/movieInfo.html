@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>电影库</title>
+    <link rel="stylesheet" href="css/common_header.css"type="text/css"/>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="css/movieDetails.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common_bottom.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common_footer.css" type="text/css"/>
+</head>
+<body>
+<!------------------------公共header----------------------------------------------->
+<div class="common_header">
+    <div class="common_top">
+        <div class="common_topLeft">
+            <ul>
+                <li class="common_topInfo">
+                    <span class="common_topHi">HI , 欢迎访问大麦网</span>
+                    [
+                    <a href="login.html" class="common_topLogin">登录</a>
+                    <a href="register.html" class="common_topReg">注册</a>
+
+                    ]
+                </li>
+                <li class="common_topMy">
+                    <a href="#" class="common_topDm">
+                        我的大麦网
+                        <b></b>
+                    </a>
+                    <div class="twoSelect">
+                        <p>我的大麦网</p>
+                        <p><a href="indent.html">我的订单</a></p>
+                        <p><a href="">个人中心</a></p>
+                        <p><a href="">帮助</a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="common_topRight">
+            <ul>
+                <li class="common_topNav" style="background: none"><a href="#" class="common_topN"><em></em>网站导航<b></b></a></li>
+                <li class="common_topService"><a href="#" class="common_topK">客服服务<b></b></a></li>
+                <li class="common_topApp"><a href="#" class="common_topS"><em></em>手机版</a></li>
+                <li class="common_topE"><a href="#">English</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------dm_header----------------------------------->
+<div class="dm_header">
+    <div class="dm_logo">
+        <img src="image/logo-r.png" alt="logo"/>
+        <img src="image/movie_logo.png" alt="logo"/>
+    </div>
+    <div class="dm-search">
+        <div class="search-main">
+            <input type="text" name="name" class="search-text" placeholder="请输入电影，演员，导演进行搜索"/>
+            <input type="button" value="搜索" class="searchBtn"/>
+        </div>
+        <div class="dm-recommend">
+            <a href="">李健</a>|
+            <a href="">陈奕迅</a>|
+            <a href="">周杰伦</a>|
+            <a href="">蔡依林</a>|
+            <a href="">梁静茹</a>|
+            <a href="">刘若英</a>
+        </div>
+    </div>
+    <div class="dm_box">
+        <ul>
+            <li><a href="#"><img src="image/05f78688-8bdb-4988-a8c0-2ed56077d471.png" alt=""/><span>超级票</span></a></li>
+            <li><a href="#"><img src="image/625da302-a5e9-43d4-84bb-07c55118eb7d.png" alt=""/><span>积分商城</span></a></li>
+            <li><a href="#"><img src="image/66e3c79a-61da-4990-b867-a09c64643867.png" alt=""/><span>票务系统</span></a></li>
+        </ul>
+    </div>
+</div>
+<div class="dm_nav">
+    <div class="nav">
+        <ul>
+            <li><a href="#">摇滚</a></li>
+            <li><a href="#">戏曲</a></li>
+            <li><a href="#">体育</a></li>
+            <li><a href="#">亲子</a></li>
+            <li><a href="#" class="nav_movie">电影</a></li>
+            <li><a href="#">舞蹈古典</a></li>
+            <li><a href="#">旅游演艺</a></li>
+            <li><a href="#">明星周边</a></li>
+            <li><a href="#">精彩专题</a></li>
+            <li><a href="#">手机购票</a></li>
+        </ul>
+    </div>
+</div>
+<div class="detailsContent">
+    <div class="movieBg">
+        <div class="detailsWarp">
+            <div class="menu">
+                <ul class="menuUl">
+                    <li><a href="index.html">大麦网&nbsp;></a></li>
+                    <li><a href="">电影频道&nbsp;></a></li>
+                    <li><a href="movieDetails.html">影片库&nbsp;></a></li>
+                    <li>极限挑战</li>
+                </ul>
+            </div>
+            <div class="movieBox">
+                <div class="movieTitle">
+                    <span class="movieName">极限挑战</span>
+                </div>
+                <div class="movieReferral">
+                    <div class="movieReferralLeft">
+                        <div class="movieReferralImg">
+                            <img src="image/4c9666d3-99f1-4489-b019-510adaf421c5.jpg" alt="" style="width: 148px;height: 208px"/>
+                        </div>
+                        <ul class="movieReferralUl">
+                            <li>
+                                <span>主演：</span>
+                                黄渤/孙红雷/黄磊/罗志祥/王迅/张艺兴
+                            </li>
+                            <li>
+                                <span>导演：</span>
+                                任静/严敏
+                            </li>
+                            <li>
+                                <span>类型：</span>
+                                悬疑,喜剧
+                            </li>
+                            <li>
+                                <span>片长：</span>
+                                90分钟
+                            </li>
+                            <li>
+                                <span>映期：</span>
+                                2016年01月15日  中国大陆
+                            </li>
+                        </ul>
+                        <ul class="movieReferralTab">
+                            <li><a href="javascript:void(0)" id="buyTickets">排片（选座购票）</a></li>
+                            <li><a href="javascript:void(0)">购通兑劵</a></li>
+                            <li><a href="javascript:void(0)">剧情简介</a></li>
+                            <li><a href="javascript:void(0)">预告片</a></li>
+                        </ul>
+                    </div>
+                    <span class="triangle"></span>
+                </div>
+                <div class="movieReferralContent">
+                    <dl class="movieTime">
+                        <dt>观影时间：</dt>
+                        <dd>
+                            <a href="" id="time1">今天 (1.17 周日)</a>
+                            <a href="" id="time2">明天 (1.18 周一)</a>
+                            <a href="" id="time3">后天 (1.19 周二)</a>
+                        </dd>
+                    </dl>
+                    <dl class="moviePosition">
+                        <dt>影院位置：</dt>
+                        <dd>
+                            <a href="" class="active">全部(15)</a>
+                            <a href="" class="position">热门(3)</a>
+                            <a href="" class="position">高新区(2)</a>
+                            <a href="" class="position">锦江区(3)</a>
+                            <a href="" class="position">成华区(2)</a>
+                            <a href="" class="position">武侯区(5)</a>
+                            <a href="" class="position">新都区(1)</a>
+                            <a href="" class="position">青羊区(1)</a>
+                            <a href="" class="position">金牛区(1)</a>
+                        </dd>
+                    </dl>
+                    <div class="movieBusiness">
+                        <h2>
+                            共有
+                            <span id="num">10</span>
+                            家影院
+                        </h2>
+                        <ul>
+                            <li><a href="">成都保利万和影城奥克斯店</a></li>
+                            <li><a href="">SFC上影（成都科华店）</a></li>
+                            <li><a href="">太平洋影城（王府井店）</a></li>
+                            <li><a href="">卢米埃成都魅力之城影城</a></li>
+                            <li><a href="">成都横店电影城-正成店</a></li>
+                            <li><a href="">成都金逸影城新都店</a></li>
+                            <li><a href="">太平洋影城（紫荆店）</a></li>
+                            <li><a href="">成都UME国际影城</a></li>
+                            <li><a href="">SFC上影（成都科华店）</a></li>
+                            <li><a href="">太平洋激光影城</a></li>
+                        </ul>
+                        <span class="arrow"></span>
+                    </div>
+                    <div class="movieBusinessInfo">
+                        <ul>
+                            <li>
+                                <div class="movieBusinessListInfo">
+                                    <div class="movieBusinessImg">
+                                        <a href="">
+                                            <img src="image/1420682850258.jpg" alt="" style="width: 200px;height: 130px"/>
+                                        </a>
+                                       <p style="width: 200px">地址：<strong>成都市武侯区科华中路9号百联天府购物中心5楼</strong></p>
+                                       <p>电话：<strong>028—85222236</strong></p>
+                                    </div>
+                                </div>
+                                <div class="movieBusinessListTab">
+                                    <table style="width: 100%;border-collapse: collapse" border="1">
+                                        <tbody>
+                                            <tr class="tableTitle">
+                                                <th>场次</th>
+                                                <th>语言/版本</th>
+                                                <th>放映厅</th>
+                                                <th>原价</th>
+                                                <th>大麦价</th>
+                                                <th>购票</th>
+                                            </tr>
+                                            <tr class="tableInfo">
+                                                <th>23：10</th>
+                                                <th>国语/2D</th>
+                                                <th>3号厅(255座)</th>
+                                                <th><del>￥70.00</del></th>
+                                                <th><strong>￥43.00</strong></th>
+                                                <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                            </tr>
+                                            <tr class="tableInfo">
+                                                <th>00：10</th>
+                                                <th>国语/3D</th>
+                                                <th>3号厅(255座)</th>
+                                                <th><del>￥90.00</del></th>
+                                                <th><strong>￥56.00</strong></th>
+                                                <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                            </tr>
+                                            <tr class="tableInfo">
+                                                <th>00：10</th>
+                                                <th>国语/3D</th>
+                                                <th>3号厅(255座)</th>
+                                                <th><del>￥90.00</del></th>
+                                                <th><strong>￥56.00</strong></th>
+                                                <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                            </tr>
+                                            <tr class="tableInfo">
+                                                <th>00：10</th>
+                                                <th>国语/3D</th>
+                                                <th>3号厅(255座)</th>
+                                                <th><del>￥90.00</del></th>
+                                                <th><strong>￥56.00</strong></th>
+                                                <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                            </tr>
+                                            <tr class="tableInfo">
+                                                <th>00：10</th>
+                                                <th>国语/3D</th>
+                                                <th>3号厅(255座)</th>
+                                                <th><del>￥90.00</del></th>
+                                                <th><strong>￥56.00</strong></th>
+                                                <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                            </tr>
+                                            <tr class="tableInfo">
+                                                <th>00：10</th>
+                                                <th>国语/3D</th>
+                                                <th>3号厅(255座)</th>
+                                                <th><del>￥90.00</del></th>
+                                                <th><strong>￥56.00</strong></th>
+                                                <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                            </tr>
+                                            <tr class="tableInfo">
+                                                <th>00：10</th>
+                                                <th>国语/3D</th>
+                                                <th>3号厅(255座)</th>
+                                                <th><del>￥90.00</del></th>
+                                                <th><strong>￥56.00</strong></th>
+                                                <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+
+
+                            <li>
+                                <div class="movieBusinessListInfo">
+                                    <div class="movieBusinessImg">
+                                        <a href="">
+                                            <img src="image/69fa3b70-0311-4405-9b53-e648e101e162.jpg" alt="" style="width: 200px;height: 130px"/>
+                                        </a>
+                                        <p style="width: 200px">地址：<strong>成都市锦江区青年路21号至暑袜街27号</strong></p>
+                                        <p>电话：<strong>028-86713529</strong></p>
+                                    </div>
+                                </div>
+                                <div class="movieBusinessListTab">
+                                    <table style="width: 100%;border-collapse: collapse" border="1">
+                                        <tbody>
+                                        <tr class="tableTitle">
+                                            <th>场次</th>
+                                            <th>语言/版本</th>
+                                            <th>放映厅</th>
+                                            <th>原价</th>
+                                            <th>大麦价</th>
+                                            <th>购票</th>
+                                        </tr>
+                                        <tr class="tableInfo">
+                                            <th>23：10</th>
+                                            <th>国语/2D</th>
+                                            <th>3号厅(255座)</th>
+                                            <th><del>￥70.00</del></th>
+                                            <th><strong>￥43.00</strong></th>
+                                            <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="movieBusinessListInfo">
+                                    <div class="movieBusinessImg">
+                                        <a href="">
+                                            <img src="image/9fef9644-b4c2-497b-8630-38de5666fda7.jpg" alt="" style="width: 200px;height: 130px"/>
+                                        </a>
+                                        <p style="width: 200px">地址：<strong>成都市成华区双庆路8号万象城三层、四层 </strong></p>
+                                        <p>电话：<strong>84347776-8002</strong></p>
+                                    </div>
+                                </div>
+                                <div class="movieBusinessListTab">
+                                    <table style="width: 100%;border-collapse: collapse" border="1">
+                                        <tbody>
+                                        <tr class="tableTitle">
+                                            <th>场次</th>
+                                            <th>语言/版本</th>
+                                            <th>放映厅</th>
+                                            <th>原价</th>
+                                            <th>大麦价</th>
+                                            <th>购票</th>
+                                        </tr>
+                                        <tr class="tableInfo">
+                                            <th>23：10</th>
+                                            <th>国语/2D</th>
+                                            <th>3号厅(255座)</th>
+                                            <th><del>￥70.00</del></th>
+                                            <th><strong>￥43.00</strong></th>
+                                            <th><input type="button" value="选座购票" class="tableBtn"/></th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------------movie_logo---------------------------------------------------------->
+<div class="movie_logo">
+    <div class="movie_logo_inner">
+        <div class="warp1">
+            <div class="movie_bra">
+                <h3 class="title3">
+                    品牌合作
+                </h3>
+                <ul class="movie_bra_con">
+                    <li><a href=""><img src="image/924f08c6-4028-43d9-9527-fbc23d89d420.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="image/a7248e84-dfc2-4e2d-bfff-693bb36a9db6.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="image/73887fef-3402-48ed-8339-50c89e3b059a.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="image/ec323f36-7cd3-4a82-a6c8-59dfe708df72.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+            <div class="movie_spo">
+                <h3 class="title3">
+                    赞助合作
+                </h3>
+                <ul class="movie_bra_con">
+                    <li><a href=""><img src="image/5b07d05b-1a99-4f4d-b7e1-14335b932fb1.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="image/13358932-87ee-4c2d-a822-d5a6e8be3804.jpg " alt=""/></a></li>
+                    <li><a href=""><img src="image/345fbed0-3d88-4e62-b844-60c250dcf4b9.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------common_footer------------------------------------------------------->
+<div class="common_footer">
+    <div class="common_bottom_inner">
+        <ul class="common_footer_ul common_warp">
+            <li>
+                <h4 class="common_footer_h4_1">电影活动</h4>
+                <p><a href="">电影活动</a></p>
+                <p><a href="">正在上映电影</a></p>
+                <p><a href="">影院库</a></p>
+                <p><a href="">在线选座购票</a></p>
+            </li>
+            <li>
+                <h4 class="common_footer_h4_2">帮助中心</h4>
+                <p><a href="">在线选座购票流程</a></p>
+                <p><a href="">电子票换票流程</a></p>
+                <p><a href="">常见问题</a></p>
+            </li>
+            <li>
+                <h4 class="common_footer_h4_3">关注大麦电影</h4>
+                <p><a href="">@大麦电影</a></p>
+            </li>
+            <li>
+                <h4 class="common_footer_h4_4">商务合作</h4>
+                <p><a href="">Tel:(86-10)64186577</a></p>
+                <p><a href="">E-mail:movie@damai.cn</a></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--------------------------------------common_bottom-------------------------------------------------------------->
+<div class="common_bottom">
+    <div class="common_bottom_warp">
+        <div class="common_bottom_link">
+            <a href="">公司介绍</a>|
+            <a href="">品牌识别</a>|
+            <a href="">公司荣誉</a>|
+            <a href="">联系方式</a>|
+            <a href="">隐私声明</a>|
+            <a href="">合作招商</a>|
+            <a href="">招聘信息</a>|
+            <a href="">网站地图</a>|
+            <a href="">友情链接</a>
+        </div>
+        <div class="common_bottom_copy">
+            版权所有 大麦网 Copyright2003-2014 All Rights Reserved 京ICP备11043884号 京公网安备11010102000430号 北京红马传媒文化发展有限公司
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.chooseTop{
+    width: 100%;
+    height: 94px;
+    border-bottom: 3px solid #146384;
+    padding-bottom: 20px;
+}
+.chooseWarp{
+    width: 1000px;
+    margin: auto;
+
+}
+.chooseTitle{
+    width: 370px;
+    border-right: 1px solid #e0e1e1;
+    float: left;
+}
+.chooseWarp ol{
+    margin-top: 25px;
+    padding-left: 33px;
+    float: left;
+}
+.chooseWarp ol li{
+    float: left;
+    font-size: 18px;
+    margin-right: 33px;
+    list-style: none;
+    counter-increment: duck;
+}
+.chooseWarp ol li:before{
+    content: counter(duck);
+    font-size: 35px;
+    font-style: oblique;
+    color:#000;
+    padding-right: 10px;
+}
+.chooseActive{
+    border-bottom: 3px solid rgb(237, 28, 36);
+}
+.chooseBox{
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 960px;
+    height: 580px;
+    background: #f5f5f5;
+    border: 1px solid rgb(204, 204, 204);;
+}
+.place{
+    width: 690px;
+    height: inherit;
+    border-right: 1px solid rgb(204, 204, 204);;
+    float: left;
+}
+.placeInfo{
+    width: 269px;
+    background: #fff;
+    height: inherit;
+    float: left;
+}
+.seat_tit{
+    width: 589px;
+    margin: 20px auto;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(102, 102, 102);
+}
+.seat_tips{
+    width: 589px;
+    height: 40px;
+    margin: 20px auto;
+}
+.seat_tips span{
+    display: inline-block;
+    height:20px;
+    padding: 0 15px 0 25px;
+}
+.tips_01{
+    background: url("../image/seat_bg.png") no-repeat 0 2px;
+}
+.tips_02{
+    background: url("../image/seat_bg.png") no-repeat 0 -58px;
+}
+.tips_03{
+    background: url("../image/seat_bg.png") no-repeat 0 -18px;
+}
+.tips_04{
+    background: url("../image/seat_bg.png") no-repeat 0 -38px;
+}
+.tips_05{
+    background: url("../image/seat_bg.png") no-repeat 0 -78px;
+}
+.placeNum{
+    margin-left: 10px;
+}
+.placeNum dl dt{
+    float: left;
+}
+.placeNum dl dt span{
+   display: inline-block;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    color:#fff;
+    background: url("../image/seat_bg.png") no-repeat 0 -110px;
+}
+.placeNum dl dd span a{
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 10px;
+    background: url("../image/seat_bg.png") no-repeat ;
+}
+
+.placeInfo h4{
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: rgb(0, 153, 0);
+    font-weight: bold;
+    padding-bottom: 13px;
+    padding-left: 20px;
+}
+.placeInfo ul li{
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.places{
+    color:red;
+}
+.placeDiv{
+    margin-left: 50px;
+}
+.placeBtn{
+    display: block;
+    width: 154px;
+    height: 55px;
+    border: none;
+    background: transparent url('../image/seat_btn.png') no-repeat;
+    cursor: pointer;
+}

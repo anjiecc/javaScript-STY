@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/*************************公共header.CSS样式********************************************/
+body{
+    font: 12px/1.5 "Microsoft YaHei";
+    min-width:1200px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.common_header{
+    width: 100%;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -10px;
+}
+.common_top{
+    width: 1000px;
+    height: 40px;
+    margin: auto;
+}
+.common_topLeft ul li {
+    float: left;
+    line-height: 40px;
+    margin-right:10px;
+    padding-right: 15px;
+    position: relative;
+    background:transparent url("../image/top-bg.png")no-repeat scroll right 15px ;
+}
+.common_topLeft ul li a{
+    color:rgb(102, 102, 102);
+    text-decoration: none;
+}
+.common_topLeft ul li a:hover{
+    text-decoration: underline;
+}
+.common_topLogin{
+    color:rgb(229, 27, 70)!important;
+}
+.common_topDm:hover{
+    text-decoration: none!important;
+}
+.common_topRight ul li{
+    float: right;
+    line-height: 40px;
+    margin-left:10px;
+    padding-right: 15px;
+    position: relative;
+    background:transparent url("../image/top-bg.png")no-repeat scroll right 15px ;
+}
+.common_topRight ul li a{
+    color:rgb(102, 102, 102);
+    text-decoration: none;
+}
+.common_topMy{
+    position: relative;
+}
+.common_topMy:hover .twoSelect{
+    display: block;
+}
+.common_topMy b,.common_topN b,.common_topK b{
+    width: 7px;
+    height: 4px;
+    background: transparent url('../image/top-bg.png') no-repeat scroll 0 -40px;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    transition: all 0.3s ease 0s;
+}
+.common_topMy .common_topDm:hover b,.common_topRight li a:hover b{
+    transform: rotate(360deg);
+    background-position: 0 -50px;
+}
+.twoSelect{
+    display: none;
+    width: 68px;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-bottom: 10px;
+    position: absolute;
+    top:0;
+    left: -5px;
+    outline: 1px solid #e5e5e5;
+}
+.twoSelect p{
+    width: 68px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+}
+.twoSelect p a{
+    color: #333;
+}
+.common_topS em{
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    position: relative;
+    top:4px;
+    margin-right: 5px;
+    background: transparent url('../image/top-bg.png') no-repeat scroll 0 -60px;
+    transition: all 0.2s ease 0s;
+}
+.common_topApp .common_topS:hover em{
+    background-position: 0 -80px;
+}
+.common_topN em{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top:1px;
+    margin-right: 5px;
+    background: transparent url('../image/top-bg.png') no-repeat scroll 0px -100px;
+}
+

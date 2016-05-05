@@ -1,0 +1,498 @@
+@charset "UTF-8";
+/**************************logo************************************************/
+.dm_header{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+   padding: 25px 0 0 0;
+}
+.dm_logo{
+    width: 350px;
+    float: left;
+}
+.dm-search{
+    width: 415px;
+    float: left;
+    margin-left: 25px;
+}
+.search-text{
+    width: 302px;
+    height: 21px;
+    padding: 5px 10px;
+    border: 2px solid rgb(229, 27, 70);
+    color: rgb(102, 102, 102);
+    float: left;
+    outline: none;
+}
+.searchBtn{
+    background: rgb(229, 27, 70) none repeat;
+    width: 84px;
+    height: 35px;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+    border: 0 none;
+}
+.dm-recommend{
+    padding-top: 10px;
+}
+.dm-recommend a{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    line-height:10px ;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.dm_box{
+   display: inline-block;
+    width: 200px;
+}
+.dm_box:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.dm_box ul{
+    padding: 0;
+    margin-left: 10px;
+}
+.dm_box ul li{
+    display: inline-block;
+    margin-top: -11px;
+}
+.dm_box ul li a{
+    display: inline-block;
+    width: 48px;
+    text-align: center;
+    margin-right: 12px;
+    text-decoration: none;
+    color:rgb(153, 153, 153);
+}
+/*******************************nav************************************************/
+.dm_nav{
+    width: 100%;
+    height: 37px;
+    background: transparent url('../image/nav_bg.png') repeat-x scroll;
+}
+.nav{
+    width: 1000px;
+    line-height: 37px;
+    margin: auto;
+}
+.nav ul{
+    margin-left: -25px;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+    padding: 9px 15px;
+}
+.nav li a:hover,.nav_movie{
+    background: transparent url('../image/nav_bg.png') repeat-x scroll 0 -400px;
+}
+/********************************moviePic*****************************************************/
+.dm_movie{
+
+    background: transparent url('../image/movie_bg.png') repeat scroll;
+}
+.dm_movieBg{
+    background: transparent url('../image/movie_bg3.png') repeat-x ;
+}
+.movie_sub{
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    position: relative;
+}
+.main_pic li{
+    float: left;
+}
+.banner{
+    overflow: hidden;
+    position: relative;
+}
+.movie_nav{
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    bottom: 47px;
+    left: 100px;
+}
+.movie_nav li{
+   float: left;
+}
+.movie_navUl a{
+    display: block;
+    width: 250px;
+    height: 135px;
+    cursor: pointer;
+}
+.movie_nava1 {
+    background: transparent url('../image/movie_nav_bg.png') no-repeat scroll -250px 0px;
+}
+.movie_nava1:hover{
+    background: transparent url('../image/movie_nav_bg.png') no-repeat scroll -250px -135px;
+}
+.movie_nava2{
+    background: transparent url('../image/movie_nav_bg.png') no-repeat scroll 0 0;
+}
+.movie_nava2:hover{
+    background: transparent url('../image/movie_nav_bg.png') no-repeat scroll 0 -135px;
+}
+.movie_nava3{
+    background: transparent url('../image/movie_nav_bg.png') no-repeat scroll -500px 0;
+}
+.movie_nava3:hover{
+    background: transparent url('../image/movie_nav_bg.png') no-repeat scroll -500px -135px;
+}
+.movie_nava4{
+    background: transparent url('../image/movie_nav_bg.png') no-repeat scroll -750px 0;
+}
+.movie_nava4:hover{
+    background: transparent url('../image/movie_nav_bg.png') no-repeat scroll -750px -135px;
+}
+.movie_nav li a span{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    padding: 76px 0px 0px 108px;
+}
+.movie_show{
+    height: 730px;
+}
+.movie_act{
+    height: 730px;
+    border-top: 1px solid #133c4c;
+ }
+.warp{
+    width: 1052px;
+    height: 730px;
+    margin: auto;
+    position: relative;
+}
+.warp1{
+    width: 1052px;
+    height: 280px;
+    margin: auto;
+    position: relative;
+}
+.title{
+    height: 70px;
+    line-height: 70px;
+    background: transparent url('../image/movie_title.png') no-repeat scroll;
+}
+.title2{
+    height: 70px;
+    line-height: 70px;
+    background: transparent url('../image/movie_title.png') no-repeat scroll 0 -140px;
+}
+.more{
+    float: right;
+    color: rgb(86, 103, 112);
+    padding-left: 35px;
+    background: transparent url('../image/movie_more.png') no-repeat scroll 0px 23px;
+}
+.more1{
+    float: right;
+    color: rgb(86, 103, 112);
+    padding-left: 35px;
+    background: transparent url('../image/movie_more.png') no-repeat scroll 0px -77px;
+}
+.t2{
+    width: 596px;
+    height: 394px;
+}
+.s1,.s3,.s6,.s7,.s8,.s9,.t1,.t3,.t4,.t5,.t6,.t8,.t9,.p1,.p3,.p4,.p6,.p8,.p9,.p10{
+    width: 192px;
+    height: 192px;
+    position: relative;
+}
+.s2{
+    width: 596px;
+    height: 192px;
+}
+.s4,.s5,.s10,.p5,.p7{
+    width: 394px;
+    height: 192px;
+}
+.p2{
+    width: 394px;
+    height: 394px;
+}
+.s1_a1,.t1_a1,.p1_a1{
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+    background: red;
+    text-align: center;
+    line-height: 192px;
+    font-size: 34px;
+    color: #fff;
+}
+.warp ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom:10px;
+    position: relative;
+}
+.warp ul li a{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.s2_a2{
+    display: none;
+    width: 596px;
+    height: 192px;
+    background: rgba(255, 120, 0,0.8);
+}
+.s2_a2 strong{
+    display: block;
+    font-size: 24px;
+    padding-top: 65px;
+}
+.s2_a2 span{
+    font-size: 20px;
+    color: rgb(51, 25, 0);
+}
+.s3_a3{
+    display: block;
+    width: 192px;
+    height: 192px;
+    background: rgb(185, 228, 54);
+}
+.s3_a3 strong{
+    display: block;
+    font-size: 24px;
+    padding-top: 65px;
+}
+.s3_a3:hover{
+    background: rgba(185,228,54,0.7);
+}
+.s4{
+    width: 394px;
+    height: 192px;
+}
+.s4_a4,.t7_a7,.p7_a7{
+    display: none;
+    width: 394px;
+    height: 192px;
+    background: rgba(255, 120, 0,0.8);
+}
+.s4_a4 strong,.t7_a7 strong,.p7_a7 strong{
+    display: block;
+    font-size: 24px;
+    padding-top: 65px;
+}
+.s4_a4 span,.t7_a7 span,.p7_a7 span{
+    font-size: 20px;
+    color: rgb(51, 25, 0);
+}
+.s5_a5,.s10_a10,.p5_a5{
+    display: block;
+    width: 394px;
+    height: 192px;
+    background: rgb(29, 106, 107);
+}
+.s5_a5:hover,.s10_a10:hover,.p5_a5:hover{
+    background: rgba(29, 106, 107,0.5);
+}
+.s5_a5 p,.s10_a10 p{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 30px;
+}
+.s5_a5 p em,.s10_a10 p em{
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+.s5_a5 span,.s10_a10 span{
+    font-size: 14px;
+    color:rgb(204, 204, 204);
+}
+.s5_a5 span em,.s10_a10 span em{
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    padding-left: 30px;
+}
+.s6_a6,.s9_a9,.p4_a4,.p9_a9{
+    display: none;
+    width: 192px;
+    height: 192px;
+    background: rgba(255, 120, 0,0.8);
+}
+.s6_a6 strong,.s9_a9 strong,.t4_a4 strong,.s7_a7 strong,.s8_a8 strong,.t3_a3 strong,.t6_a6 strong,.t5_a5 strong,.t9_a9 strong,.t7_a7 strong,.p4_a4 strong,.p9_a9 strong{
+    display: block;
+    font-size:24px;
+    padding-top: 65px;
+}
+.s6_a6 span,.s9_a9 span,.t4_a4 span,.s7_a7 span,.s8_a8 span,.t3_a3 span,.t6_a6 span,.t5_a5 span,.t9_a9 span .t7_a7 span,.p4_a4 span,.p9_a9 span{
+    display: block;
+    font-size: 14px;
+}
+.s7_a7{
+    display: block;
+    width: 192px;
+    height: 192px;
+    background: rgb(134, 83, 173);
+}
+.s7_a7:hover{
+    background: rgba(134, 83, 173,0.6);
+}
+.s8_a8{
+    display: block;
+    width: 192px;
+    height: 192px;
+    background: rgb(2, 175, 25);
+}
+.s8_a8:hover{
+    background: rgba(2, 175, 25,0.5);
+}
+.t6_a6:hover{
+    background:rgba(253, 135, 0,0.5);
+}
+.t3_a3:hover{
+    background: rgba(114, 22, 97,0.5);
+}
+.movie_star{
+    background: transparent url('../image/movie_bg2.png') repeat scroll 0% 0%;
+    border-top: 1px solid rgb(58, 59, 67);
+}
+.title1{
+    height: 70px;
+    line-height: 70px;
+    background: transparent url('../image/movie_title.png') no-repeat scroll 0 -70px;
+}
+.t3_a3{
+    width: 192px;
+    height: 192px;
+    background: rgb(114, 22, 97);
+}
+.t5,.p6{
+    margin-top: -200px;
+}
+.t5 img{
+    width: 192px;
+    height: 192px;
+}
+.t6,.p7{
+    margin-left: -200px;
+}
+.t6_a6{
+    width: 192px;
+    height: 192px;
+    background:rgb(253, 135, 0);
+}
+.t2_a2{
+    display:none;
+    width: 596px;
+    height: 394px;
+    background:rgba(253, 135, 0,0.8);
+}
+.t2_a2 strong{
+    display: block;
+    font-size:24px;
+    padding-top:170px;
+}
+.t2_a2 span{
+    font-size: 18px;
+    color: #764e00;
+}
+.t4_a4,.t5_a5,.t9_a9{
+    display: none;
+    width: 192px;
+    height: 192px;
+    background:rgba(253, 135, 0,0.8);
+}
+.p2_a2{
+    display: none;
+    width: 394px;
+    height: 394px;
+    background:rgba(253, 135, 0,0.8);
+}
+.p2_a2 strong{
+    display: block;
+    font-size:24px;
+    padding-top:150px;
+}
+.p2_a2 span{
+    display: block;
+    font-size: 18px;
+    color: #764e00;
+}
+.p3_a3{
+    width: 192px;
+    height: 192px;
+    background-color: #00b2fe;
+}
+.p6_a6,.p8_a8{
+    width: 192px;
+    height: 192px;
+    background: #45a3ac;
+}
+.p10_a10{
+    width: 192px;
+    height: 192px;
+    background:rgb(253, 135, 0);
+}
+.p10_a10:hover{
+    background:rgba(253, 135, 0,0.8);
+}
+.p6_a6:hover,.p8_a8:hover{
+    background: rgba(69, 163, 172, 0.60);
+}
+.p3_a3 strong,.p6_a6 strong,.p8_a8 strong,.p10_a10 strong{
+    display: block;
+    font-size: 24px;
+    padding-top: 65px;
+}
+.p3_a3 span,.p6_a6 span,.p8_a8 span,.p10_a10 span{
+    font-size: 18px;
+    color: #fff;
+}
+.p5_a5 strong{
+    display: block;
+    font-size: 24px;
+    padding-top:65px;
+}
+/***********************************movie_logo************************************************************/
+.movie_logo{
+    background: #ececec url(../image/logo_bg.png) repeat-x;
+}
+.movie_logo_inner{
+    background: url(../image/bottom_bg.png) repeat-x 0 bottom;
+    padding: 25px 0 15px;
+}
+.title3{
+    font-weight: 100;
+    padding-left: 21px;
+    font-size: 22px;
+    font-family: Microsoft YaHei;
+    color: #555;
+    text-shadow: 1px 1px 1px #e3e3e3;
+}
+.movie_bra_con li{
+    float:left;
+    width: 206px;
+    height: 47px;
+    margin: 0 21px 20px;
+    border: 1px solid #dbdbdb;
+}
+.movie_spo{
+    clear: both;
+}

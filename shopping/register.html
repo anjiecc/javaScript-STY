@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/login.css" type="text/css"/>
+    <link rel="stylesheet" href="css/reg.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common_bottom.css" type="text/css"/>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/reg.js"></script>
+</head>
+<body onload="createCode()">
+<div class="login_header">
+    <div class="login_warp">
+        <div class="login_logo">
+            <a href="index.html" class="login_img">
+                <img src="image/logo.png" alt="logo"/>
+            </a>
+            <h1 class="login_title">账户注册</h1>
+        </div>
+        <a href="" class="loginE">English</a>
+    </div>
+</div>
+<div class="reg_main">
+    <div class="reg_warp">
+        <div class="regForm">
+            <form action="">
+                <div class="user">
+                    <label for="username" class="usernameLabel"></label>
+                    <input type="text" name="username" id="username" placeholder="邮箱/手机号码"/><span class="verifyInfo1"></span>
+                </div>
+                <div class="paw">
+                    <label for="password" class="passwordLabel"></label>
+                    <input type="password" name="password" id="password" placeholder="登录密码"/><span class="verifyInfo2"></span>
+                </div>
+                <div class="pas">
+                    <label for="confirmPass" class="passwordLabel"></label>
+                    <input type="password" name="password" id="confirmPass" placeholder="确认密码"/>
+                </div>
+                <div class="authCode">
+                    <label for="authCode" class="authLabel"></label>
+                    <input type="text" name="authCode" id="authCode" placeholder="4位验证码" onblur="validate()"/>
+                    <input type="text" id="checkCode" class="code" style="width: 60px"/>
+                    <a href="javascipt:viod()" class="vague" onclick="createCode()">换一换</a><span class="verifyInfo3"></span>
+                </div>
+                <div class="register">
+                    <input type="button" name="register" value="立即注册" class="register_btn" id="register"/>
+                </div>
+                <div class="service">
+                    <input type="checkbox" name="checkbox" id="auto"/>
+                    <label for="auto">我已阅读并同意《大麦网会员服务条款》</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------common_bottom--------------------------------------------------------->
+<div class="common_bottom">
+    <div class="common_bottom_warp">
+        <div class="common_bottom_link">
+            <a href="">公司介绍</a>|
+            <a href="">品牌识别</a>|
+            <a href="">公司荣誉</a>|
+            <a href="">联系方式</a>|
+            <a href="">隐私声明</a>|
+            <a href="">合作招商</a>|
+            <a href="">招聘信息</a>|
+            <a href="">网站地图</a>|
+            <a href="">友情链接</a>
+        </div>
+        <div class="common_bottom_copy">
+            版权所有 大麦网 Copyright2003-2014 All Rights Reserved 京ICP备11043884号 京公网安备11010102000430号 北京红马传媒文化发展有限公司
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var code;
+    function createCode(){
+        code = "";
+        var codeLength = 4;//验证码的长度
+        var checkCode =  document.getElementById("checkCode");
+        checkCode.value = "";
+        var selectChar = new Array(1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','g','h','j','k','l','m','n','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','J','K','L','M','N','P','Q','R','S','T','U','V','W','X','Y','Z');
+
+        for(var i=0;i<codeLength;i++) {
+            var charIndex = Math.floor(Math.random()*60);
+            code +=selectChar[charIndex];
+        }
+        if(code.length != codeLength){
+            createCode();
+        }
+        checkCode.value = code;
+    }
+    function validate () {
+        var inputCode = document.getElementById("authCode").value.toUpperCase();
+        var codeToUp=code.toUpperCase();
+        if(inputCode.length <=0) {
+            $(".verifyInfo3").show().css({
+                color:"red"
+            }).html("请输入验证码!");
+            $(".authCode").css({
+                border:"1px solid #e5e5e5"
+            });
+            return false;
+        }
+        else if(inputCode != codeToUp ){
+            $(".verifyInfo3").show().css({
+                color:"red"
+            }).html("验证码输入错误!");
+            $(".authCode").css({
+                border:"1px solid #e5e5e5"
+            });
+            createCode();
+            return false;
+        }
+        else {
+            $(".verifyInfo3").show().css({
+                color:"#000"
+            }).html("输入正确");
+            $(".authCode").css({
+                border:"1px solid #e5e5e5"
+            });
+            return true;
+        }
+    }
+</script>
+</html>

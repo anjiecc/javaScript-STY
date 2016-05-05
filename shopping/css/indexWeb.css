@@ -1,0 +1,71 @@
+@charset "UTF-8";
+hr{
+    height: 5px;
+    background-color:red;
+    border: none;
+}
+.indentWarp{
+    width: 1000px;
+    margin: 20px auto;
+}
+.indentTop{
+    width: inherit;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    border: 1px solid #efefef;
+    background-color: #fdfdfd;
+}
+.indentTop a{
+    color:#2f97b4;
+}
+.indentTop a:hover{
+    text-decoration: underline;
+}
+.indentTopImg{
+    width:1042px;
+    height:80px;
+}
+.indentBtn{
+    margin-top: 45px;
+}
+.indentBtn ul{
+    overflow: hidden;
+    width: 1000px;
+    border-bottom: 3px solid red;
+}
+.indentBtn ul li{
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+.indentBtn ul li a{
+    display: inline-block;
+    width: 105px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    color:#000;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+}
+.movieIndent{
+    background: transparent url('../image/b.png') no-repeat scroll -139px -93px;
+    color:#fff!important;
+}
+.queryTable{
+    margin-top: 20px;
+}
+.queryTable table tr{
+    height: 40px;
+}
+.queryTable table thead tr th{
+    background: #faedf1;
+}
+.playMoney{
+    background: transparent url('../image/b.png') no-repeat -243px -93px;;
+    width: 94px;
+    height: 32px;
+    border: none;
+    color:#fff;
+}
